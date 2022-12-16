@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I'm Alisha,and this is my personal portfolio website..">
+    <meta name="keywords" content="Alisha, Alisha Sahu, alisha ">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Alisha Sahu</title>
+
+    <!--==================== Favicon ====================-->
+    <link rel="shortcut icon" href="/assets/img/favicon_edited.png" type="image/png">
+
+    <!--==================== Animate on scroll CDN ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Alisha</a>
+
+            <div data-aos="fade-in" class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__items">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#about" class="nav__link ">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav_items">
+                        <a href="#skills" class="nav__link ">
+                            <i class="uil uil-file nav__icon"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#services" class="nav__link ">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Proficiencies
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#portfolio" class="nav__link ">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#contact" class="nav__link ">
+                            <i class="uil uil-message nav__icon"></i> Contact me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!--Theme Change button-->
+                <i class="uil uil-moon change-theme" id="theme-button" onclick="themeButton()"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div data-aos="fade-left" class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/alisha-sahu-302126157/"
+                            target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/Alisha666" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="home__social-icon">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+
+                    <div data-aos="fade-right" class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <!-- <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" /> -->
+
+                                <image class="home__blob-img" x="20" y="30" href="assets\img\download.jpg" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home_title">Hi!<span class="wave">👋</span>, I'm Alisha</h1>
+                        <h3 class="home__subtitle">
+                            and I'm <span class="auto-input"></span>
+                        </h3>
+                        <p class="home__description">
+                            As a web developer. I like to code things from scratch and enjoy bringing ideas to life in the browser.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name"> Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle"> My Introduction</span>
+
+            <div data-aos="fade-left" class="about__container container grid">
+                <img src="assets\img\WhatsApp Image 2022-12-15 at 7.22.02 PM.jpeg" alt="" class="about__img" />
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hi I'm Alisha Sahu from Ranchi.I have 2 years work experience in Cognizant Technology Solutions as a Programmer Analyst. I have completed my Btech degree in information Technology from Haldia Institute of Technology College.
+                        <br>
+                        I'm a full-stack developer. I have learnt HTML, CSS, JS and React. I am interested in
+                        working on projects with an open-source focus.
+                    </p>
+
+                    <div class="about_info">
+                        <div>
+                            <span class="about__info-title">02</span>
+                            <span class="about__info-name">Years <br />
+                                experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">Completed <br />
+                                project</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">24/7</span>
+                            <span class="about__info-name">Online<br />
+                                support</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/Alisha CV.pdf" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div data-aos="fade-up" class="skills__container container grid">
+                <div>
+                    <!--==================== SKILL 1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend developer</h1>
+                                <!-- <span class="skills__subtitle">More then 2 years</span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/html.png" class="skills__logo"
+                                            width="25px" alt=""> HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/css.png" class="skills__logo"
+                                            width="20px" alt=""> CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/javascript.png" class="skills__logo"
+                                            width="20px" alt=""> JavaScript</h3>
+
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/react.png" class="skills__logo"
+                                            width="20px" alt=""> React</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SKILL 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Backend developer</h1>
+                                <span class="skills__subtitle"></span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="assets\img\Java-tutorials.jpg" class="skills__logo"
+                                            width="20px" alt=""> Java</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/sql.png" class="skills__logo"
+                                            width="20px" alt=""> MySQL</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
+                                </div>
+                            </div>
+                            <!-- <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/node.png" class="skills__logo"
+                                            width="20px" alt=""> Node Js</h3>
+
+                                    <span class="skills__number">58%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/python.png" class="skills__logo"
+                                            width="20px" alt=""> Python</h3>
+                                    <span class="skills__number">94%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!--==================== SKILL 3 ====================-->
+                    <!-- <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Designer</h1>
+                                <span class="skills__subtitle">More then 1/2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/blender.png" class="skills__logo"
+                                            width="20px" alt=""> Blender</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__blender"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/ps.png" class="skills__logo"
+                                            width="20px" alt=""> Adobe Photoshop</h3>
+                                    <span class="skills__number">42%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/illustrator.png" class="skills__logo"
+                                            width="20px" alt=""> Adobe Illustrator
+                                    </h3>
+                                    <span class="skills__number">62%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__adobeillustrator"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                <!-- </div>
+            </div>
+            </div> -->
+
+
+        </section> 
+
+        <!--==================== Certificates ====================-->
+        <!-- <section class="certificate section">
+            <h2 class="section__title">My Certificates</h2>
+            <span class="section__subtitle">By Programming Hub</span>
+            <span class="section__subtitle">Scroll or slide here to see next>>></span>
+
+            <div data-aos="fade-up" class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Certificate 1 ====================-->
+                    <!-- <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/Mrinmoy_abstract_HTML.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>HTML Certificate</p>
+                            <a href="/assets/pdf/Mrinmoy_abstract_HTML.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 2 ====================-->
+                    <!-- <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/Mrinmoy_abstract_CSS.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>CSS Certificate</p>
+                            <a href="/assets/pdf/Mrinmoy_abstract_CSS.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+        </section>  -->
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">My Proficiencies</h2>
+            <span class="section__subtitle"></span>
+
+            <div data-aos="fade-right" class="services__container container grid">
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Ui/Ux <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">Frontend <br> Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-pen services__icon"></i>
+                        <h3 class="services__title">Data <br> Structure</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Data <br> Structure</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Have good knowledge of data structures .</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Have hands on practice of algorithms.</p>
+                                </li>
+                                <!-- <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>sou knowledge of data structures.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div data-aos="fade-right" class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeBC8zeIYVmBNni9n7ZM4W60Lp-alHHP3CPQ&usqp=CAU" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Todo App</h3>
+                            <p class="portfolio__description">A task manager application. React-based application. Where user can create a list of tasks
+                                according to priorities and can modify, remove tasks.</p>
+                            <a href="#" class="button button--flex button--small portfolio_-button">
+                                Live Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="https://www.bing.com/th/id/OGC.237e8ffb93204fd3b851376ec43ed81c?pid=1.7&rurl=https%3a%2f%2fwww.cmarix.com%2fblog%2fwp-content%2fuploads%2f2021%2f03%2fFrozen-Food-Ordering-Apps.gif&ehk=R4DqN%2fXtvQfzG7eVZGfP%2fpPCh1uRIfIBZEIitS8MmgU%3d" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Freshly.com</h3>
+                            <p class="portfolio__description">  Freshly is the leading prepared meal delivery subscription service providing nutritionist-approved, 
+                                balanced meals that are delivered fresh to your door and ready-to-eat in three minutes.</p>
+                            <a href="https://snazzy-crostata-4c826a.netlify.app/index.html" class="button button--flex button--small portfolio_-button">
+                                Live Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVEhUYGBgZGRgYGBgYGBgYGhoaGBoZGhgaGBgcIS4lHB4rIRoYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzclJSw0NDQ2NDQ3NDQ0NDYxMTE0NDQ2NDQ0NDQ0NjQ0MTQ0NDQ0NDQ0NDQxNDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAAAQIGBAUHA//EAEgQAAIBAgMEBAkHCgYCAwAAAAECAAMRBBIhBQYxQSJRYZEHEzJxcoGhsdEjM0JzssHCFFJTYoKDkqLS8BYkJTSj4bPxFTVj/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAKREAAgECBAUEAwEAAAAAAAAAAAECAxEEITJREhQxM2ETQYGhInHw8f/aAAwDAQACEQMRAD8A67TWeoiUSUkgI4QgBCEIAQhMbF4xKS5qjBRe1yefUOuQ2lmwlfoZMJQcVvkVxQFOoHpFmORQt1FJkpupJFyCHNQWN7oBwJnpvBvqKbAUHQnIOgbMS71FCa3AsFRx53Xq154o7k8Mti9QlP21vlTpoj0nTVznV7ZjTCVCSoB0IYK2v0QdNYq2+KjBmqGTx4Rei1lVqhyBsozE5btpx05mxjijuOCWxcYSp7E3up1VqGoyqVq1lVrqqmmtRxSOrXJyqL9R42vMXdjfZMRcVSqnxdB7joqC9FHqC5OtnYgW7eoyeJbjhexdoSoYXfGma4osynXEi4KgXp1QKd2JtY02U355hLYjBgCOB1kppkNNE4Tyr4hEGZ3VR1swUd5lZw+91E1WQ1EIBcXD0wBlqOg1LC/RUfxCQ5JdWSot9C1GEpz77UVxLUmcMmZgrLYi3iqLrdr28o1v4O97W35w9JkVHVg2QmysSAatNGOnCyMx89pHEtxwPYt5hKVvDv5SoorYch2bOCrK4sRRqNTB4cai01OvAnzz2xO/2EFEVVcm4RrGm/kkrmPD80k+qPUjuTwS2LfCU/A7/YZqeZswa7iwQ26LsoHHqAmJu34Q6NdT4+6N8mLhDl6VGmzkm5taoag8wWPUjuT6cti8yNpIEEXGoOotzinZwIxSRkbQBRGMmKAKKSMiYAiIhJGKQCNoRwkkmYIWjhBAQhCAEIQgBKPv+TnpC5tlY29Y190vEpO/o6dL0W94mfE9tl2H1o51svZ7IxNRV41mFQOzMwqMhUFCLC2Q6jrEhX2c7YguVVkJpWYuQUCNnayjyiSBx7Zu79kLeuYPVle/ixt9ONrfJptuYOpUKZFzgK4y5/F2ZgAGuOOhYW/WM9dqYVmoBVF7FLoGyllUgsof6N+vl28Js4pCqtJeDrgTv5NbRwzLQKKuRyHOXNmCs7MR0jx4jj1yGxMGURs9M0ySoAzipdVWwN+XVbsm1I1kRDqtprcKmrp7Gl2Pgqi1naoll+WKvmUhs7UyoyfRsFOsvO6W95WuuCdbrcKj3OYZlzAEdQuR3TQEkcJ4bqJfaiemh7qd5fRqOU7+CivBRh8lg8IVV2rlATZUXIOQLAkkDrvbuEo+xdm1aec1ypZspTKysNWdnvbgblTL5v6tsVfrpp72ErCicVZtSkt2WU4JwjLY0Oz8FVGKZ6inJeoVa4N2K5V0ve0nidnu+JVit6fQu17ZQpzEBb6g5Vm7I++Ir3dsj1pXv4sdelG3zc1O2sLUfJ4sKbZrhrWBIsp4Hhx9U9tp4XNTCUlFlKZQ+ilUI0bS3AcO2Rq7bw4OU1ATe11DMO8C02IS2nHjHFOKjddCVCEm2n1MEYb5AIcqsUIbKLLma5NrDhrHgKRRLOtMNfXxahQQL6nQa69wEyriIjTXzicuo2mtzpQireC8eD7b71GfDVLEU0GRueUWXKeu2kvU5X4Nv97V9A+9Z1OenRd4I82skpOwQtCMywqINIyZkYARQhAEYpKKAK0I7wgGXCEIAQhCAEIQgBKTv75dP0W94l2lJ388un6Le+Z8V22X4fWipxASeWIieWeiZux9miszZ2yoi5nbTQa6DtOvcZmLXwB6PiqgXh4zMS3pWv6+Hqi2FZ0r0MwVqirkubAspJy+u/deYx2W/i1YAl2dkyAXN1GtiOPAxYqecmm7E8bu9WW7IpqINVZSCSpFwct7901GWbnZeFrCpQZSekcwsx0RGysG6lty7RMPapU1qmW2XM1rWtx5dl7zlM7i3ezzMF7CG5iX2r5rH/ik8vCeu46f6ox/Vv8A8dvumrDairEaTc7/AKf5hTy8UPYzyrHlLd4QV+WQ9dO3czfGVScV+4yyhoRBpq9oKarijchAM9UjS6k2Vb9pBJ7BNtaa/D9GvVU/TWk69ZC5la3mLDvkU8rvZHU/Zexi0cIr1yAoFOgFCqAAC7DNmt2Lb1mbUL3TXeNWlXYNotbKVblnUZSpPaMpHrmzk1L5fr/fsiFs/wBnmRF1yRF4ESssN14O/wDfv20z+CdUE5TuE3+oHtpN+H4Tqs9Wg/wR5ddfmxwhAiXlJExSRkDIAjCOKAEDCIwBQihAM2EIQAhCEAIQhACUffr5yn6B95l4lH35PyyD9T8TTPiu2y/D60VmIc/ZGZ5zyz0UT1vpx90sO72NBehSIN0aqxY88yP7eMrl5sf/AIiqLtp0SoYqwJGe1tP2lv55BxUSaswxmJBpUAjG4RlcAkeU18p7DNa0y8Rs9kUM1spNgQQeu1xyvlbumIw5QdRt7CtymZuMn+pN9Xf+UiYhE2G5C22iT10b/wAzj8M0YbWVYjQbbwhjp0j+o3sYfGVAy6eEMdKiex/enxlNsJFfuM6odtECZg7QwmfKysVdSSjAA2vxBHNTzE2BEw8RjUQkM1iBc9Fm0Aub2Fhpc+YHqlcL3yLZWtma2vUrlSlXDLVB4lXAB7bHVTMfAbLrZwWd6SAgikKjOdORPADvm6fGopZWJGQFmJVsvRALANaxIBBsJ51NooBchhqQRkIK5bZs4PDQg+Yy1TnayiVuEb3bMgrCSt2REd8oLjY7ktbaKdqOPYfhOtice3XfLtGh2hh/K87EJ6mH0HmYnWEDJSJmgzkWkTJNImAKKOFoAoGBgYBGEUIBmwhCAEIQgBCEIAjKLvwfl1+rHtZpejKLvt8+Pq1+08y4rtl+H1lbbtjiY8NIxPMPRIHWZCYl+kM72JBPTOtuBOutrDungv8Ado1/9wLHo9VmUKWYgciSRcX5ftHvM8lHVJZYvN65AQjymx3P/wDsE7cOf/JX+E1xE2W6ptj6Hbh39lXEzRhtZTiNBuvCEPmD9YPsSlFeQl53/HRon9Zh3gfCUc8eEYnuP+9jrDdtCb+/+5j18KrXzC9731PAqyHT0WImXIHrlKbXQutcxHwiFi7KCWBDXJIIIAN1va5AsTaC4NAuXILHNobm+bjcnU3sO4TIK84jOuN7jhQg0gwtJ21kf765yTYlsh8uPwrfrgd+n3ztQE4bSOXE4Vuqqv2lndJ6eGf4nmYpfkEiYzEZpM5ExRmKAIiFozEYAjEYzImARhCEAzYQhACEIQAhCEAJVt6ti1KrCpSGY5QpW4B0JIIvx4+yWmazam26GHKiu+XMGINiR0eN7c7Zj5kY8pXUgpxszqEnGV0Uc7BxP6Fu9fjEdhYnh4lu9fjLXtn8iFqmIe2YsoKvUALIj1GBFM8clNzr1W4kCKpsvBLT8ab5Oic3jqxHTIC/T5lh3zNyi3NHMy2KqNhYj9C38vxiXYWI/Qt7PjLXhdl4GomdFDL0tc9Q+QSraFr6FSPVPDZmF2diATSRWtk0JYHp00qrYMdehUU+sjlI5NbjmpbFbbYuI0+RbuHxkW2LiP0Ld0seFTZru1JaaBlzAhgRcrVqUWAudTnpP6rGSrLs9KwoPRRWYsFuosSq020F76+NAGnEHsjk1uTzUtiqvsmuurU2UcyRwmRudTNTHKyapQpMrONVzMzkLfgfLPcZdxsHCEA/k9MjtQH2GZ+Hw6IuVFVB1KoUdwndLDKEuK5xUruasaXe/ANVoXVSzI2YKoLEixBAA1J+E5njsUtJslUOjcSGRwezQrO2Sv1dvUfyk4eouZgXANs/kph31FtNK3ct+c6qYeM3xMinXlBWRyg7Zo9b+pH/AKYDa1M8qh/dv8J1PFbfw9KulApdmZFBVL2DpWdSQBp80y954AzI2zt2hhgrOOiyuwIH5hXMCLX4MT+yZxykNzvmp7HJxjgfJSof2G++TSoT9Bx6QtOrbU29SoU1qlWZWdEsFswL3ynLa/KedDeOm2DOLCkAUDXKGwNlTOVDHQ9V+HPhJ5WmOamcyWmT9KmvpOV/CYV6RVS2eg3UqVHdz2KoTUzqOw94qWKD5Ay5XZOmLXIAOnqPCYO7299HFu6KpUoFNyQ2rM4PAaDojXtPC0ctDcLEzOf7H3bxeIrUnek1NAytmYWsoIPA63Np2eOKXwgoqyKJzcndiMUkZEyw4EZEiSMUAREQjhAImKOIwCNoSUIJMqEIQQEIQgBCEIBhbT2ilCmXe9r2AGpYnkPb3Tke3d6xjMTkWmAougbMSykUcSjOLgDMvjtO3L1S8b/nSiOV3PcFt7zOf0Nk0UqtWRSHbNc5iR0uItwEx1a/DJx8fZrpUVKKl5+hby7ztenSKoQozZFDLcl0yq1ycwbK6nsZr8Z7bY289HCrQOQIxRM2UhzkKMzs97Z7IW4cQLDlPLEbKou61XW7plynMRbKbjQGx1nrj8BTrgLWXOoOYDMV1sRxUjkZVzGnN+S10OuS8EtmbwvQweYKgDUyzdElumCT0s3DXq5njeeO5u1np02akFtfIC936Ki/RObSxa3mp0+QE96mGQ0vFZehlChbnyQAAL8eFosHhEpLkpLlW5a1ydTYE636hOXiHZ5u9yVQV1kjXbtbbY4qtXpqmc+NYlgzWNSuzmy5uj2dWd+ue9XeRm2mjMtM1EUBTka1xTccL8ArHn7p64TAUqRY01Cl/KILa631ueuP8hp5xVyLnHB+Y0t5uBMl4j8m87W+wqCssle/0dG3Z3lStelUKpWGoW+lRT9JL9t7rxHrlonBNpuyVaTobMtyCOsMp+6d3pG6gnqHumujNzimzHWioyaRTt+drsjJRRigK5mIJBa5IAuNbaHz3nK9m16lTGV2qXCjxgDENc3NNF48ejTWdB8Ig/zCfVj7TSqEGY6lVqUl8fo10qacU1+zS4wv+WU1CnKwVmNvzfG8+HBjDewsETIGa5cG1zbMmU8B1MfXablZEicqrZp26fZY6V01fqYe28woMQCzDISq66h0va1+2PZyfIqSGDEFsp49K7EHQczbzTMt6vNEeM59TK3m516ed7+1jUbuUyabMwKDMFCt5XQVRfyRpqO4xbPps1apdWXKX6RPRYMyBcmnEZSb3PGbdv8AqL1zp1btu3UhUrJK/Qu+6e9DL4qhWJYO7ojkksMoQqGJ46sR6hL/ADh+yATjMMP/ANF94+E7eZtoSbjmYa8VGWQoQhNBQIxGMxQBRGOKAIwMIGAEIoQDJjijgBCEIAQhCAU/f3hR/efglNIt2S47/D5j95+CVAnjcD+/dPKxHcZ6OH7a/vcgJh4raiI2TKzta5SmpYgcibaD1mZ6zU7vKMjsfLNV89+OYGwB7LWt55xFKzbLZX6I98DtJKjFRmRlFyjrle3WAeI80zZh47Z9OsV8YNVvYqxVrEai41trMTZ6GlXairMyNTFRQzFipz5SoJ1sePqMWi81/fIu11NpHb+xHlilZ2anaiXeme0+8TvFPgPMPdOF7Q8un6X3zuicB5hPSwuk8/E6jnnhEHy6fVj7TSpAWlw8Io+WpH9Q/aMqB7Zjr9xmyh20QvMHG7USkQtiznUIoubdvVM8rNXsUgtXLeV49wT9LKoAUeYC9vXIglZyfsdTbTSXuSwm2FdgjK1Nj5KuuW/mMz17J4Y/BJWUK3AEFWU6gg8j3iYCYY0KlMU2YpUJVlZibEAsGXq4ayeGEtOT2Obyj1zW5toH2Rjsg3bKi4ydgrfHYb0/dO0TjO73+/w3p/dOzGenhtB5uK1ihFHNBmAxRmKAKIwMRgBAwiMAjCEIBlwijgBHFCAOEUcAp+/p+Z/efglPMt2/nGiOx/ekqNp5WI7jPRw+hAOszAq7PUVPHIXViOmisAtSw0DA6X7ZntIsCRppKU2uhe1crVLF1/HFHS1Z+BVkYUqdxxUea+p1Pt3WBwQplmLM7PbO7EXNr2AA0A1OgiwGzlpBtSzsczu3lOfuUcgJmEaSyc08onMY7iLSGaTtIESo7MDH6PT9Ie+dzp8B5h7pwnaZsyHtH3zulA9FfMPdPSwuk8/Faig+EX56n6H4jKgbmW/wifPU/q/xGVA8Zjr9xmzD9tCmL+RAVTWUkMwysOTdRI6xbjMoxOwHEj1nlK02uhY0ma+jdQuVcoAqkULglje4IY8OZ9c9UwmaotVibhbKp4IW8o9rHhee5VMwY2zqDY8wDobeyTzg8OHfOnN+xyor3C8LwYyJYzgsMrd8/wCfw3p/dO0GcU2GbY7C/WTtZnp4bSeZidQjCBimgzhFHFAEYjJGRMAUDEYQBQihAMuOREckDhCEgDhCEApW/hOakP1XPtWVO/mlr37bp0/Rb2kSqFZ5VfuM9KhoQE3mAFrAXvfXgbai6XtYaXAfvEzgOUTAylZF1jW1lxDKQGAZltpYWOUi6nLp0ivqBtae9AVsxLuuW72C24XGS+nVf19cy9R2QtJcsuhFhZrSM9LyBE5OjU7YOqHt+4zu2F8hPRX3CcJ219Dzj3N8J3XC+Qnor7hPSwuk8/FaiheEP59Pq/xNKhaW7wh/Pp1eKH2mlR5THX7jNmH0ID5pjYjCK7BmJ6IZbC1iHUqb6a8ZkCIcpWm1mixpPJmEcAhBGZrZSvEXBJPSDWvcX67cJk0aaquVeFyR2XYtbzC9gOoCSYmINrJcpPqFFLoS48ZEmEjIJPfY5tjcN9YvvE7aZw7ZrWxeG+sX7SzuJnpYbSebidQjCIxzQZwiMcRMARkTHI3gCMIiYCAOEUIBkqZOY9Np7AyQOOKEgEhCKEApG/Q+UT0D9o/9Sr37J07a+yUxChXuCNQw4g8+PEcJWsXuY41pVEb0wV7iLzBWoycm0rm2jXjGKjIqkCZYDudivzqP8T/0xf4MxXJ6Pe/wlXoT2LuYhuaC0iZYf8GYr8+j/Ofuh/gvFc6lHuf4xy9TYjmIblfI6om7ZYl3JxPOrR/gf4x/4HxP6ekP2HP4o5eexPMU9yh7bIui8739Wo++d3wvkL6K+4Si7L8HQWsKuKr+NsQcoXKCRwB1OnYJf7TbQg4xszDWmpSuiheESkc9JrdEqy35XBvb2ym9fdO04nDJUUrUVWU8mAI9vOV+ruRhWJI8Yt+QqGw817ymrhnKTkmX0sSoxUWuhzQ8JGx5TpB3Ew351X+MfCMbiYYcHq/xL/TK+Vn4LObhszm1pEidLO42H/Of+T+mMbkYf85/WKZ/BHKz8Dm47M5kfhEw17J04bl0B9I+tKf3LJLufSHNT56aH7o5Wfgjm47HLsJ/ucNbX5RfYyTuhlcwG59GnWFd2Z3XyAQiJT4+QiAAcT7+MsZE2UYOEbMy1pqUroiY4WhLSoJExyJgCMiTGZGAKOEIJCEIQQQo1JlI0IToEgZKEJACMQhIA4QhACEIQAhCEAIQhAC8jCEAlCEIAoQhACKEIAXkTCEAV4GKEkBFCEARMiYQkAiZGEIAQvCEAjmhCEkH/9k=" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Weather App</h3>
+                            <p class="portfolio__description">A Weather Application is a real time app in which a user can get the climate and weather information from all around the world.</p>
+                            <a href="https://hilarious-pothos-2421af.netlify.app/" class="button button--flex button--small portfolio_-button">
+                                Live Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+            <div data-aos="fade-in" class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now on your new project.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="/assets/img/project.png" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <!-- <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My client saying</span>
+            <span class="section__subtitle swiper-error">Slide here to see next>>></span>
+
+            <div data-aos="fade-in" class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+
+                    <!--==================== TESTIMONIAL 1 ====================-->
+                    <!-- <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Danyka Nadeau</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">
+                            I get a good impression, I carry out my project with all the possible quality and attention
+                            and support 24 hours a day.</p>
+                    </div> -->
+                    <!--==================== TESTIMONIAL 2 ====================-->
+                    <!-- <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial4.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Elon Musk</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">
+                            It's always a pleasure to work with Mrinmoy, he brings 100% to each project and gets work
+                            done when
+                            it's needed the most.</p>
+                    </div> -->
+                    <!--==================== TESTIMONIAL 3 ====================-->
+                    <!-- <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Brian Cox</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">
+                            He's a good programmer, I carry out my project with all the possible quality. </p>
+                    </div> -->
+                    <!--==================== TESTIMONIAL 4 ====================-->
+                    <!-- <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Matt Robinson</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">
+                            He's an amazing web developer, he has a deep understanding about his sphere, and delivers
+                            great result.</p>
+                    </div>
+                </div> -->
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div data-aos="fade-in" class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon "></i>
+                        <!--home__social-->
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle"> alishsahu666@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-github-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Github</h3>
+                            <span class="contact__subtitle">https://github.com/Alisha666 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://formsubmit.co/alishsahu666@gmail.com" method="POST"
+                    class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input name="name" type="text" class="contact__input" placeholder="Enter your name">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input name="email" type="email" class="contact__input" placeholder="Enter your EmailID">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input name="message" type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input" name="message"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main> 
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Alisha</h1>
+                    <span class="footer__subtitle">Frontend Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Proficiencies</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/alisha-sahu-302126157/"
+                        target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i></a>
+                    </a>
+
+                    <a href="https://github.com/Alisha666" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i></a>
+                    </a>
+
+                    <a href="https://twitter.com" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i></a>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&copy; 2023 Alisha Sahu | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <!--==================== SCROLL TOP ====================-->
+    <div><a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a></div>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=================== Animated text ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: [
+                "a Frontend Developer",
+                "a Fast Learner",
+                
+            ],
+            typeSpeed: 200,
+            backSpeed: 300,
+            loop: true,
+        });
+    </script>
+
+    <!--=================== Animate scroll js ===============-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:100,
+            duration: 1000
+        });
+    </script>
+
+</body>
+
+</html>
