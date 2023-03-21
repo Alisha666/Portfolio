@@ -313,7 +313,11 @@ img {
 
 .home__blob-img {
   width: 200px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  margin-top: -200px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
   
 }
 
@@ -409,16 +413,18 @@ img {
   color: var(--first-color);
 }
 
+
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
-  margin-top: -200px;
+  /* margin-top: -200px; */
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
 }
 
 .about__description {
+  /* width: 400px; */
   text-align: center;
   margin-bottom: var(--mb-2-5);
 }
@@ -523,35 +529,35 @@ img {
 }
 
 .skills__css {
-  width: 70%;
+  width: 80%;
 }
 
 .skills__js {
-  width: 70%;
+  width: 80%;
 }
 
 .skills__react {
-  width: 20%;
+  width: 70%;
 }
 
 .skills__php {
-  width: 50%;
+  width: 70%;
 }
 
 .skills__mysql {
-  width: 50%;
+  width: 70%;
 }
 
 .skills__node {
-  width: 58%;
+  width: 60%;
 }
 
 .skills__python {
-  width: 94%;
+  width: 60%;
 }
 
 .skills__blender {
-  width: 50%;
+  width: 60%;
 }
 
 .skills__photoshop {
